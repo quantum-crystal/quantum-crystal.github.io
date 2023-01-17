@@ -23,12 +23,12 @@ function Home() {
 
         {/*  Page sections */}
         <Hero />
-        <PressLogos />
+          {/*<PressLogos/>*/}
         <Features />
         <Features02 />
-        <Pricing />
-        <Testimonials />
-        <Resources />
+          {/*<Pricing/>*/}
+          {/*<Testimonials />*/}
+          {/*<Resources/>*/}
         <Cta />
 
       </main>
