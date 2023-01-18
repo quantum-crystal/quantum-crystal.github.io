@@ -12,7 +12,7 @@ function Features02() {
       <div className="absolute top-0 left-1/2 -z-10 ml-[390px]" aria-hidden="true">
         <img src={Illustration} className="max-w-none" width="608" height="305" alt="Illustration" />
       </div>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto">
         <div className="py-12 md:py-20">
           {/* Section header */}
           {/*<div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
@@ -23,9 +23,9 @@ function Features02() {
             </div>
           </div>*/}
           {/* Section content */}
-          <div className="max-w-xl mx-auto md:max-w-none flex flex-col md:flex-row md:items-center md:space-x-8 lg:space-x-16 xl:space-x-18 space-y-8 space-y-reverse md:space-y-0">
+          <div className="w-full mx-auto md:max-w-none flex flex-col md:flex-row md:items-center md:space-x-8 lg:space-x-16 xl:space-x-18 space-y-8 space-y-reverse md:space-y-0">
             {/* Content */}
-            <div className="md:w-5/12 lg:w-4/12 order-1 md:order-none" data-aos="zoom-out" data-aos-delay="200">
+            <div className="md:w-8/12 lg:w-6/12 order-1 md:order-none px-6" data-aos="zoom-out" data-aos-delay="200">
               <div className="text-center md:text-left">
                 <h3 className="h3 font-uncut-sans text-4xl mb-4">Transparent OLED screens</h3>
                 <p className="text-xl text-gray-400 mb-6">
@@ -55,12 +55,12 @@ function Features02() {
               </div>
             </div>
             {/* Image */}
-            <div className="md:w-7/12 lg:w-8/12" data-aos="zoom-out">
+            <div className="w-full mb:pr-6 h-full" data-aos="zoom-out">
               <img src={cyberpunkGif} alt="gift" />
               {/*<img className="mx-auto md:max-w-none" src={FeaturesImage} width="540" height="581" alt="Features"/>*/}
             </div>
           </div>
-          <div className="mt-16">
+          <div className="mt-16 px-6">
             <h2 className="h3 font-uncut-sans mb-4">About Us</h2>
             <div className="">
               <p className="text-lg text-gray-400">

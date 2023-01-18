@@ -16,7 +16,9 @@ function Cta() {
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left">
               <h3 className="text-4xl font-bold font-uncut-sans mb-2">Get started with Quantum Crystal</h3>
-              <p className="text-blue-200">It only takes a few minutes. Understand your users, start free, today.</p>
+              <p className="text-blue-200">
+                Our company prioritizes quick customer service, usually responding in under an hour.
+              </p>
             </div>
             {/* CTA button */}
             <div className="shrink-0">
