@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Sidetab  } from '@typeform/embed-react'
+
 import Illustration from '../images/cta-illustration.svg';
 
 function Cta() {
@@ -15,9 +17,9 @@ function Cta() {
           <div className="flex flex-col lg:flex-row justify-between items-center">
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left">
-              <h3 className="text-4xl font-bold font-uncut-sans mb-2">Get started with Quantum Crystal</h3>
+              <h3 className="text-4xl font-bold font-uncut-sans mb-2">Get started!</h3>
               <p className="text-blue-200">
-                Our company prioritizes quick customer service, usually responding in under an hour.
+                Quantum Crystal prioritizes quick customer service, usually responding in under an hour.
               </p>
             </div>
             {/* CTA button */}
@@ -25,6 +27,7 @@ function Cta() {
               <a className="btn-sm text-white bg-gradient-to-t from-blue-600 to-blue-400 hover:to-blue-500 w-full group shadow-lg" href="#0">
                 Contact us <span className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
               </a>
+              <Sidetab id="ivwRVU28" style={{ width: '50%' }} buttonText="Contact us" className="my-form" />
             </div>
           </div>
         </div>
@@ -32,5 +35,7 @@ function Cta() {
     </section>
   );
 }
+
+//https://tr293084y9h.typeform.com/to/ivwRVU28
 
 export default Cta;

@@ -10,7 +10,7 @@ function Features() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="text-center pb-12 md:pb-20">
-            <h2 className="h2 font-uncut-sans" data-aos="zoom-out">Unique screens for capturing attention</h2>
+            <h2 className="h2 font-uncut-sans" data-aos="zoom-out">Capturing attention in the age of endless distractions</h2>
           </div>
           <div className="pb-16" data-aos="zoom-out">
             <img className="opacity-60 bg-gradient-to-r-primary-white-200 w-full" src={quantumDoorsGif} height="512" alt="Features" />
@@ -19,7 +19,7 @@ function Features() {
           <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-3 lg:gap-16 items-start md:max-w-none">
             {/* 1st item */}
             <div className="flex flex-col items-center" data-aos="zoom-out">
-              <div className="mb-4">
+              {/*<div className="mb-4">
                 <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                   <defs>
                     <radialGradient cx="50%" cy="89.845%" fx="50%" fy="89.845%" r="89.85%" id="icon1-b">
@@ -36,13 +36,13 @@ function Features() {
                     </g>
                   </g>
                 </svg>
-              </div>
+              </div>*/}
               <h4 className="h4 text-gray-200 text-center mb-2">Custom design</h4>
-              <p className="text-lg text-gray-400 text-center">Be ahead of the curve with our cutting-edge innovations.</p>
+              <p className="text-lg text-gray-400 text-center">Crafting unique designs to reflect your personal style.</p>
             </div>
             {/* 2nd item */}
             <div className="flex flex-col items-center" data-aos="zoom-out" data-aos-delay="200">
-              <div className="mb-4">
+              {/*<div className="mb-4">
                 <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                   <defs>
                     <radialGradient cx="50%" cy="89.845%" fx="50%" fy="89.845%" r="89.85%" id="icon2-b">
@@ -59,15 +59,15 @@ function Features() {
                     </g>
                   </g>
                 </svg>
-              </div>
+              </div>*/}
               <h4 className="h4 text-gray-200 text-center mb-2">Installation</h4>
               <p className="text-lg text-gray-400 text-center">
-                Lead the way with our state-of-the-art solutions.
+                Expert installation for a flawless finish.
               </p>
             </div>
             {/* 3rd item */}
             <div className="flex flex-col items-center" data-aos="zoom-out" data-aos-delay="400">
-              <div className="mb-4">
+              {/*<div className="mb-4">
                 <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                   <defs>
                     <radialGradient cx="50%" cy="89.845%" fx="50%" fy="89.845%" r="89.85%" id="icon3-b">
@@ -84,7 +84,7 @@ function Features() {
                     </g>
                   </g>
                 </svg>
-              </div>
+              </div>*/}
               <h4 className="h4 text-gray-200 text-center mb-2">Animations</h4>
               <p className="text-lg text-gray-400 text-center">
                 Create visually stunning animation like never before with our cutting-edge technology.
